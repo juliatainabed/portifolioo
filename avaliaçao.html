@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link href="css/inicial.css" rel="stylesheet">
+</head>
+<body>
+    
+    <center><table cellpadding="10"> 
+        <td><a href="index.html">Início</a></td>    
+        <td><a href="trimestres/1 tri.html" target="_blank"> 1° trimestre</a> </td>
+        <td><a href="trimestres/2° tri.html" target="_blank" > 2° trimestre</a> </td>
+        <td><a href="trimestres/" target="_blank"> 3° trimestre</a> </td>
+        <td><a href="_" target="_blank" > Avaliação </a></td>
+  </table> </center>  
+    <h1>formulario de Avaliação</h1>
+
+    <form action="" method="get">
+        <fieldset>
+            <p>
+                Digite seu nome:
+                <br>
+                <input typr="text" name="nome" placeholder="nome">
+    <p></p>   <! utilizei p pois bom br a linha nâo estava sendo pulada deixando as perguntas do formulario juntas ->
+                Digite a nota:
+                <br>
+         <input type="text" name="nota" required="required" placeholder="Nota de 0 a 10" maxlength="3">
+    <br>
+    <br>
+    Você considera o trabalho:
+    <br>
+        <input type="radio" name="satisfação" value="Muito bom">Muito bom
+        <input type="radio" name="satisfação" value="bom">bom
+        <input type="radio" name="satisfação" value="ruim">ruim
+        <input type="radio" name="satisfação" value="muito ruim"> Muito ruim 
+    <br>
+    <br>
+
+Digite aqui comentários, sugestões,etc..
+<br>
+        <textarea name="comentarios" cols="30" rows="10"> Local para comentarios..</textarea>
+        <br>
+        <input type="reset" value="limpar">
+        <input type="submit" value="enviar">
+    </p>
+        </fieldset>
+
+    </form>
+    <p id="importante">O formulário não armazena dados, portanto peço que o/a professor(a) enviei a avaliação pelo sigaa ou gmail:
+        <a href="mailto:2023302230@aluno.erechim.ifrs.edu.br">2023302230@aluno.erechim.ifrs.edu.br</a>
+    </p>
+</body>
+</html>

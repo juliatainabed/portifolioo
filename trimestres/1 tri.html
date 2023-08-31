@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>1° trimestre</title>
+        <link href="../css/primeirotri.css" rel="stylesheet">
+</head>
+        <body>
+            <center><table cellpadding="10"> 
+                <td><a href="../index.html">Início</a></td>    
+                <td><a href="1 tri.html" target="_blank"> 1° trimestre</a> </td>
+                <td><a href="2° tri.html" target="_blank" > 2° trimestre</a> </td>
+                <td><a href="" target="_blank"> 3° trimestre</a> </td>
+                <td><a href="../avaliaçao.html" target="_blank" > Avaliação </a></td>
+          </table> </center> 
+            <p> os conteúdos estão em ordem cronológica </p>
+            <p id="top"></p>
+            <h1> 1° trimestre</h1>
+        <hr> 
+            <p> ATALHOS <br>
+                <a href="#Sistemanúmerico" >Sistema Númerico</a> <br>
+                <a href="#conjuntonúmerico" >Conjuntos Númericos</a> <br>
+                <a href="#função" >Função e função afim</a> <br>
+            
+            </p>
+            <h2> Resumo </h2>
+            <p> Os conteúdos foram iniciados com uma breve revisão dos conteúdos vistos no fundamental, como operações aritméticas, contas com virgula, equações de primeiro grau, etc. <br>
+           Embora já tenha sido visto em outros anos sinto dificuldade em entender contas em fração pois ainda não consegui memorizar onde usar m.m.c., quando inverter, entre outros, tenho como objetivo para o segundo trimestre rever esses conceitos e tentar entendê-los. <br>
+            </p>
+            <h2 id="Sistemanúmerico">Sistema de Numeração </h2>
+            <h3>Sistema Binário</h3>
+            <p>  O sistema binário foi o primeiro ensinado e consegui entender bem seu funcionamento com a tabela <br>
+            <figure><img src="../img/1°tri/meu caderno1.jpeg" height="300" width="400" alt="tabela de binários"><figcaption>Obs.: meu caderno possui um erro na sequencia pois esqueci de iniciar com o 0.</figcaption> 
+            </figure> <br>
+            <u> binário para decimal:</u>Entendendo a tabela aprendemos a conversão de decimal para binário onde devemos dividir o dois e guardar o resto até que o resto seja 1. <br>
+            Ex.: <img src="../img/1°tri/decimal-binário.jpg" height="300" width="400" alt="conversão de decimal para binário"> <br>
+            <u>Decimal para binário:</u>devemos decompor o número multiplicando cada unidade por 2 e o expoente sendo o número da posição. <br>
+            Ex.: <img src="../img/1°tri/binário-em-decimal.gif" height="300" width="400" alt="conversão de binário para decimal"> <br>
+            Também podemos fazer cálculos com números binários 
+            Para adição usamos as seguintes explicações:
+            <table border="1">
+                <tr>
+                    <td>0+0</td>
+                    <td>0</td>
+                    </tr>
+                <tr>
+                 <td>1+0</td>
+                    <td> 1</td>
+                </tr>
+                <tr>
+                    <td>1+0</td>
+                    <td>1</td>
+                <tr>
+                    <td>1+1</td>
+                    <td>10 permanece o 0 e o 1 vai para a próxima posição</td>
+                </tr>
+            </table>
+            E para subtração:
+            <table border="1">
+                <tr>
+                    <td>0-0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1-0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1-1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>0-1</td>
+                    <td>é preciso pegar emprestado então 10-1=1</td>
+                </tr>
+             </table>
+         </p>
+         <h3>Sistema Octal</h3>
+         <p>
+         Dígitos de 0 a 7. <br>
+         <img src="../img/1°tri/octal.jpeg" height="300" width="350" alt="tabela octal"> <br>
+         Para convertermos do decimal para o octal e de octal para decimal o processo é o mesmo que o binário pórem trocando o número 2 pelo 8 o resto do processo se mantem igual. <br>
+         Para convertermos de bnário para octal separamos de 3 em 3 e consultmaos a tabela dos binários, para o processo inverso usamos o mesmo método. <br>
+         ex.: <br>
+         <img src="../img/1°tri/conver2para8.jpeg" height="300" width="350" alt="de binário para octal e de octal para binário">
+         </p>
+         <h3> Hexadecimal</h3>
+         <p>
+            Possui 16 dígitos 16 digitos 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E e F <br>
+            <img src="../img/1°tri/hexa1.jpeg" height="300" width="350" alt="tabela hexadecimal">
+            <img src="i../img/1°tri/hexa2.jpeg" height="300" width="350" alt="tabela hexadecimal"> <br>
+            Para a conversão de decimal para hexadecimal e de hexadecimal para decimal o processo é o mesmo de binário e de octal porém trocando pelo número 16. <br>
+            De binário para hexadecimal separar em 4 e consultar a tabela de binário. <br>
+            Obs.:nesses tipos de conversão quando obtemos os números 10, 11, 12, 13, 14 e 15 substituímos eles por A,B,C,D,E, e F.
+        </p>
+        <h4>Resumidamente</h4>
+        <table border="1">
+            <tr>
+                <td> Conversão</td>
+                <td> procedimento</td>
+            <tr>
+                <td> base 10 para base x</td>
+                <td> dividir pelo número x e usar o resto</td>  
+            </tr>
+            <tr>
+                <td> base x para base 10</td>
+                <td> decomper usando o número elevado a posição</td>  
+            </tr>
+            <tr>
+                <td> base 2 para base 8 e 16</td>
+                <td> fazer a sepaação de acordo com a base para conversão e consultar a tabla de binários</td>  
+            </tr>
+            <tr>
+                <td> base y para base x</td>
+                <td> base y transfromamos em base 10 e depois convertemos para base x</td>  
+            </tr>
+        </table>
+        <p>Quando a conversão de base 2 para outra base consulto a tabela de decimal pois foi a tabela que achei mais prático.</p>
+         <h3> Noção de conjunto</h3>
+        <p>
+            Conjunto é um agrupamento, uma coleção <br>
+            Elemento é um membro de um conjunto <br>
+            <br>
+            Assim relações de pertencimento são estabelecidas: <br>
+            ∈ -pertence     ∉ - não pertence <br>
+            Ex.: 
+	        “ o número 4 pertente ao conjunto B”,  4 ∈ B <br>
+ 	        “ a letra c não pertence ao conjunto A”, c ∉ A <br>
+             Quando um conjunto possui só um elemento chamamos de conjunto unitário, quando não possui nenhum elemento chamamos de conjunto vazio { } ou Ø.
+    um conjunto é subconjunto de outro se todos os elementos pertencem a ele. <br>
+    <img src="../img/1°tri/conjuntos.png" height="200" width="200" alt="contidos"> <br>
+    ⊂- esta contido , ⊄- não contido , ⊃- contem   ⊅- não contem
+    </p>
+    <h2 id="conjuntonúmerico"> Conjuntos Numéricos</h2>
+    <img src="i../img/1°tri/conjuntosnumericso.jpeg" height="200" width="450" alt="conjuntos"> 
+    <h4>Números Naturais ℕ</h4>
+    <p>Números simples somente positivo (0,2,3,4,5,6,7...)</p> <br>
+     <h4>Números inteiros ℤ</h4>
+    <p>Números positivos e negativos (...-3,-2,-1,0,1,2,3,4,..)</p> <br>
+    <h4>Números racionais ℚ</h4>
+     <p> É constituído por todos os números que forma frações. <br>
+    (..-4,-3,- 2 4/5,-1,0,1/2,1,2,3..)
+    Neste conjunto também aprendemos dizimais periódicas <br>
+    Exemplos:
+    0,12=12/100     1,7= 17/10  <br>
+    Para convertemos exemplos assim existe um método muito simples. <br>
+    <img src="../img/1°tri/frações simples.jpegg" height="250" width="250" alt="fração "> <br >
+    E também encontramos as dizimas periódicas que possuem casas decimais infinitas e para calcularmos podemos usar o exemplo a seguir. <br >
+    <img src="../img/1°tri/diz periodica.gif" height="250" width="350" alt="método mais simples para fração "> <br >
+    Obs.: esse método foi apresentado por um colega e achei mais fácil <br >
+    Número Misto <br>
+    1 2/3, 4 8/10,etc.
+    Para transformarmos é muito simples <br>
+    <img src="../img/1°tri/fração mista.jpeg" height="200" width="550" alt="fração mista "> <br >
+</p>
+<h4>Números Irracionais 𝕀</h4>
+<p>São números que não apresentam dízima periódica e não podem ser representados por fração. números que não se pode extrair a raiz. <br>
+Como por exemplo : <br>
+√3 = 1,732050807568....<br>
+√5 = 2,236067977499...<br>
+π = 3,14159265358979323846… = comprimento de circunferência <br>
+</p>
+<h4>Números Reais ℝ </h4>
+<p>É a união dos irracionais com os racionais <br>
+    Podendo preencher toda a reta a chamamos de reta numérica, e iremos estabelecer relações de desigualdade por símbolos.<br>
+     <, ≤, > e ≥ <br>
+    ex.:
+ A < B = A menor que B <br>
+B ≤ C= B menor ou igual a C <br>
+<br>
+aprendemos também intervalos númericos  <br>
+intervalos abertos é usado [] <br>
+intervalos fechados () <br>
+é podem ser representados de duas formas (a,b] <br>
+{x ∈ (aqui se coloca a qual conjunto númerico ele pertence) | a < x  ≤ b} <br>
+<img src="../img/1°tri/retanúmerica.jpeg" height="200" width="450" alt="exemplos reta "> <br>
+</p>
+ <h4>Múmeros Complexos ℂ</h4>
+ <p>Não entendi muito bem esse conjunto, mas basicamente se trata de números reais ou imaginários que precisam existir devido a variedade de respostas para as equações algébricas <br>
+</p>
+<h4> Operações entre conjuntos</h4>
+<h5>União</h5>
+<p>
+    quando queremos juntar elementos, símbolo  ∪ <br>
+    A= (1,2,3,4,5) e  B=(6,7,8)<br>
+    A ∪ B (1,2,3,4,5,6,7 e 8)<br>
+</p>
+<h5>Intersecção</h5>
+<p>Quando queremos saber quais números pertencem a 2 ou mais conjuntos ,símbolo ∩ <br>
+    A(2,3,4,5) e B= (1,2,4,8,9) <br>
+    A ∩  B =(2 e 4)<br>
+</p>
+<h5>Diferença</h5>
+<p>números que não são em comum entre os conjuntos <r></r>
+    A(2,3,4,5) e B= (1,2,4,8,9) <br>
+    A-B = (1,3,8,9)<br>
+</p>
+<br>
+<h2 id="função"> Noção de função e função afim </h2> 
+<p>É usado quando um valor depende de outro existindo uma relação de dependência 
+    a expressão matemática é: <br>
+    <img src="../img/1°tri/função.jpeg" height="200" width="250" alt="função"> <br>
+    a e b- valores <br>
+    x - é a variável independente <br>
+    y ou f (x)- variável dependente <br>
+    <br>
+    Ex.:supondo que em uma pequena indústria temos um custo fixo de 40,00 reais e um custo variável de 1,00 real por unidade produzida. <br>
+    a função já elaborada é f(x) 1,00.x+40,00<br>
+    então para sabermos o custo de 50 peças substituímos o x pelo valor<br> 
+    f(x) = 1,00*50+40  dando assim 450 reais <br>
+    Para aprendermos o conteúdo de funções, fizemos um trabalho no Scratch, uma máquina de funções onde deveríamos elaborar algo para enviar para a professora. <br>
+<br>
+</p>
+<h4 class="avaliação"> Autoavaliação</h4>
+<p>Apesar de ser uma matéria onde costumo encontrar certa dificuldade achei que esse trimestre bem tranquilo, superando minhas expectativas, acredito ter entendido bem a matéria e 
+    os assuntos onde tive dúvida consegui entender relendo o conteúdo e os fazendo os exercícios, as dificuldades que tenho já trago comigo a anos, mas pretendo estudar no segundo 
+    trimestre para que não venham a prejudicar minhas notas e meu aprendizado. <br>
+    A professora tem uma explicação clara sempre sanando dúvidas, achei o trabalho muito divertido, a proposta da professora em deixar usar resumo na prova é algo que gostei muito
+     já que podemos colocar o que costumamos esquecer e também incentiva a relembrarmos o conteúdo caso tenhamos esquecido algo importante, além de deixar a prova com um “ar” mais tranquilo. <br>
+    <br>
+    <ul>
+        Aqui estão as referência usadas:
+    <a href="referencia.html" target="_blank">Referências</a> <br>
+    <br>
+    <a href="#top">Ir para o início da página</a> <br>
+    <a href="../index.html" target="_blank"> Voltar para a primeira página</a>
+</ul>
+   </p>
+        </body>
+</html>

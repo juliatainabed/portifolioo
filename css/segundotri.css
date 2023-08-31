@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: rgb(232, 176, 250);
+}
+h1{
+    background:linear-gradient( rgb(217, 4, 247),rgb(190, 0, 251), rgb(177, 0, 255));
+}
+h2{
+    color:rgb(189, 23, 245);
+}
+a{
+    color: black;
+}
