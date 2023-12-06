@@ -1,0 +1,41 @@
+.corpo{
+    text-align: center;
+    background-color: rgb(151, 191, 251);
+}
+#inicio{
+    color: black;
+}
+h1{
+    text-align: center;
+   
+    background: linear-gradient(blue,rgb(47, 112, 252),#0097e2);
+}
+#fórmula{
+    font-size: 20px;
+    color: black;
+
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin:0px;
+    text-align: center;
+    background-color: blue;
+    display: inline-block;
+    padding: 5px;
+
+}
+#fórmula:hover{
+    background-color: rgb(0, 181, 252);
+}
+h2{
+    color: rgb(4, 4, 201);
+}
+#autoavaliação{
+    text-align: justify;
+}
+
+tr{
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin:0px;
+    text-align: center;
+}
